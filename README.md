@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cypress Cucumber API Testing Project
 
 Este projeto contém testes automatizados usando Cypress e Cucumber para testar APIs do Advantage Online Shopping.
@@ -26,3 +27,6 @@ Este projeto contém testes automatizados usando Cypress e Cucumber para testar 
 
   npx cypress open -- Para abrir o Cypress Test Runner.
   npx cypress run -- Para executar todos o stestes sem interface gráfica.
+=======
+# TestCase1
+>>>>>>> 16243c5abaade86059f87541b84f13a9734d4842
