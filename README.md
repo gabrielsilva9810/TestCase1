@@ -18,8 +18,8 @@ Este projeto contém testes automatizados usando Cypress e Cucumber para testar 
 2. **Instale as dependências:**
 
 ```sh
-   npm install cypress --save-dev
-  npm install cypress-cucumber-preprocessor --save-dev
+npm install cypress --save-dev
+npm install cypress-cucumber-preprocessor --save-dev
 
 ## Passos para Execução
 
