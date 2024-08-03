@@ -1,7 +1,7 @@
 {
   "name": "cypress-inmetrics",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este projeto contém testes automatizados usando Cypress e Cucumber para testar APIs do Advantage Online Shopping.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
-    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
-    "cypress": "^13.13.2",
+    "cypress": "^10.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepDefinitions": false,
     "stepDefinitions": "cypress/e2e/step_definitions"
   }
 }

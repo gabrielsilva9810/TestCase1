@@ -22,9 +22,15 @@ npm install cypress --save-dev
 npm install cypress-cucumber-preprocessor --save-dev
 
 ## Passos para Execução
+   ```sh
+   npm install cypress --save-dev
+   npm install cypress-cucumber-preprocessor --save-dev
 
-1. **Executando os testes:**
+## **Executando os testes:**
 
 ```sh
 npx cypress open -- Para abrir o Cypress Test Runner.
 npx cypress run -- Para executar todos o stestes sem interface gráfica.
+   ```sh
+   npx cypress open -- Para abrir o Cypress Test Runner.
+   npx cypress run -- Para executar todos o stestes sem interface gráfica.
