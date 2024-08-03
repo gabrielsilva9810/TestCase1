@@ -16,20 +16,20 @@ const addProductToCart = (searchTerm) => {
     cy.get(addToCartButtonSelector).click();
   };
 
-Given('that the user added products to the cart', () => {
+Given('user has added products to the cart', () => {
     addProductToCart('speakers');
     addProductToCart('tablets');
 });
 
-Given('the user is on the shopping cart page', () => {
+And('user is on the shopping cart page', () => {
   cy.visit(cartPageUrl);
 });
 
-When('the user clicks the "Next" button', () => {
+When('user clicks the "Next" button', () => {
   cy.get(nextButtonSelector).click();
 });
 
-Then('the payment screen should display the same products that are in the cart', () => {
+Then('payment screen should display the same products that are in the cart', () => {
   cy.get(cartProductSelector).then(cartProducts => {
     const cartProductNames = extractProductNames(cartProducts);
 

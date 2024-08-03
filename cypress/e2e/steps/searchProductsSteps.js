@@ -1,4 +1,4 @@
-import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
+import { Given, When, Then } from 'cypress-cucumber-preprocessor';
 
 const searchButtonSelector = '#menuSearch';
 const searchInputSelector = '#autoComplete';
@@ -8,11 +8,11 @@ Given('user is on the page', () => {
   cy.visit("http://advantageonlineshopping.com")
 });
 
-When('the user click on the search button', () => {
+When('user click on the search button', () => {
   cy.get(searchButtonSelector).click();
 });
 
-When('types "tablets" in the search bar', (searchTerm) => {
+And('types "tablets" in the search bar', (searchTerm) => {
   cy.get(searchInputSelector).type(searchTerm);
 });
 

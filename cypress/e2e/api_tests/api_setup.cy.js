@@ -2,9 +2,9 @@ describe('API Setup', () => {
   let authToken;
   let userId;
 
-  const username = 'testUser';
-  const password = 'testPassword';
-  const email = 'testUser@example.com';
+  const username = 'gabrielqa9810';
+  const password = 'Qa@2024';
+  const email = 'gabrielqa9810@gmail.com';
 
   const createUser = () => {
     cy.request({
