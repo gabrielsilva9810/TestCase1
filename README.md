@@ -17,20 +17,14 @@ Este projeto contém testes automatizados usando Cypress e Cucumber para testar 
 
 2. **Instale as dependências:**
 
-```sh
-npm install cypress --save-dev
-npm install cypress-cucumber-preprocessor --save-dev
-
-## Passos para Execução
    ```sh
    npm install cypress --save-dev
    npm install cypress-cucumber-preprocessor --save-dev
 
-## **Executando os testes:**
 
-```sh
-npx cypress open -- Para abrir o Cypress Test Runner.
-npx cypress run -- Para executar todos o stestes sem interface gráfica.
+## Passos para Execução
+
    ```sh
    npx cypress open -- Para abrir o Cypress Test Runner.
    npx cypress run -- Para executar todos o stestes sem interface gráfica.
+
